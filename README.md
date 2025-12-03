@@ -68,8 +68,8 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 
 ## 📈 GitHub Stats
 
-![Mohamed Badr's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohamedTBadr&show_icons=true&theme=radical&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedTBadr&layout=compact&theme=radical&hide_border=true)
+![Mohamed Badr's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohamedTBadr&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedTBadr&layout=compact&theme=radical&hide_border=true&cache_seconds=1800)
 
 ---
 
