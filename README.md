@@ -53,7 +53,7 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 
 ## 📂 Featured Projects
 
-### [Booking System](https://github.com/MohamedTBadr/BookingSystem)
+### [Booking System]
 **Description:** Web application for booking appointments, reservations, or events.  
 **Tech:** Laravel, MySQL, JavaScript  
 **Highlights:** Role-based access, real-time booking updates, notifications  
