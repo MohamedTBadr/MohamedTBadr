@@ -1,7 +1,9 @@
 # Hi there 👋, I'm Mohamed Badr
 
+![Coding Animation](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
+
 ## 🚀 About Me
-Full-Stack Developer building modern web applications with **Laravel, Angular, React, and ASP.NET Core**.  
+Full-Stack Developer building modern web applications with **Laravel, Angular, and ASP.NET Core**.  
 Passionate about **real-time systems, backend architecture, and clean, maintainable code**.  
 I enjoy automating workflows and creating practical solutions for real-world problems.
 
@@ -16,7 +18,7 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 ### Frontend
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&animation=spin)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 
@@ -47,17 +49,20 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 ### [Booking System](https://github.com/MohamedTBadr/BookingSystem)
 **Description:** Web application for booking appointments, reservations, or events.  
 **Tech:** Laravel, MySQL, JavaScript  
-**Highlights:** Role-based access, real-time booking updates, notifications
+**Highlights:** Role-based access, real-time booking updates, notifications  
+![Booking System Demo](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 
 ### [Food Delivery System](https://github.com/MohamedTBadr/Food-Delievery-APIs)
 **Description:** Complete food ordering and delivery platform with user-friendly interface.  
 **Tech:** ASP.NET Core, EF Core, SQL Server  
-**Highlights:** Online ordering, order tracking, admin dashboard
+**Highlights:** Online ordering, order tracking, admin dashboard  
+![Food Delivery Demo](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ### [Job Portal](https://github.com/MohamedTBadr/job-backOffice)
 **Description:** Platform connecting job seekers and employers with job management features.  
 **Tech:** Laravel, MySQL, JavaScript  
-**Highlights:** User authentication, job posting, search and filtering, resume upload
+**Highlights:** User authentication, job posting, search and filtering, resume upload  
+![Job Portal Demo](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 
 ---
 
