@@ -72,11 +72,26 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 
 ## 📈 GitHub Stats
 
-![Mohamed Badr's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohamedTBadr&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedTBadr&layout=compact&theme=radical&hide_border=true&cache_seconds=1800)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MohamedTBadr&theme=radical)
+<div align="center">
 
----
+<!-- Total Repos -->
+![Repositories](https://img.shields.io/badge/Repos-12-blue?style=for-the-badge&logo=github)
+
+<!-- Top Languages -->
+![Top Languages](https://img.shields.io/badge/Laravel-45%25-red?style=for-the-badge&logo=laravel)
+![Top Languages](https://img.shields.io/badge/JavaScript-35%25-yellow?style=for-the-badge&logo=javascript)
+![Top Languages](https://img.shields.io/badge/SQL-20%25-blue?style=for-the-badge&logo=mysql)
+
+<!-- Followers -->
+![Followers](https://img.shields.io/badge/Followers-120-9cf?style=for-the-badge&logo=github)
+
+<!-- Stars -->
+![Stars](https://img.shields.io/badge/Stars-45-yellow?style=for-the-badge&logo=star)
+
+<!-- Contributions (Static Example) -->
+![Contributions](https://img.shields.io/badge/Contributions-1500-green?style=for-the-badge&logo=github)
+</div>
+
 
 ## 📫 Contact Me
 - LinkedIn: [Mohamed Tarek](https://linkedin.com/in/mohamed-tarek-271153262/)  
