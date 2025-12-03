@@ -1,6 +1,5 @@
 # Hi there 👋, I'm Mohamed Badr
 
-![Coding Animation](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ## 🚀 About Me
 Full-Stack Developer building modern web applications with **Laravel, Angular, and ASP.NET Core**.  
@@ -58,19 +57,16 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 **Description:** Web application for booking appointments, reservations, or events.  
 **Tech:** Laravel, MySQL, JavaScript  
 **Highlights:** Role-based access, real-time booking updates, notifications  
-![Booking Demo](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 
 ### [Food Delivery System](https://github.com/MohamedTBadr/Food-Delievery-APIs)
 **Description:** Complete food ordering and delivery platform with user-friendly interface.  
 **Tech:** ASP.NET Core, EF Core, SQL Server  
 **Highlights:** Online ordering, order tracking, admin dashboard  
-![Food Delivery Demo](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ### [Job Portal](https://github.com/MohamedTBadr/job-backOffice)
 **Description:** Platform connecting job seekers and employers with job management features.  
 **Tech:** Laravel, MySQL, JavaScript  
 **Highlights:** User authentication, job posting, search and filtering, resume upload  
-![Job Portal Demo](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 
 ---
 
