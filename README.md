@@ -1,12 +1,14 @@
 # Hi there 👋, I'm Mohamed Badr
 
+![Coding Animation](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
+
 ## 🚀 About Me
-Full-Stack Developer building modern web applications with **Laravel, Angular, and ASP.NET Core**.   
+Full-Stack Developer building modern web applications with **Laravel, Angular, and ASP.NET Core**.  
 Passionate about **real-time systems, backend architecture, and clean, maintainable code**.  
 I enjoy automating workflows and creating practical solutions for real-world problems.
 
-- 🌱 Currently learning: **Advanced Laravel, SignalR, WebSockets, ASP.NET Core**
-- 💼 Open to opportunities in **Backend & Full-Stack Development**
+- 🌱 Currently learning: **Advanced Laravel, SignalR, WebSockets, ASP.NET Core**  
+- 💼 Open to opportunities in **Backend & Full-Stack Development**  
 - ⚡ Fun fact: I love turning ideas into real-world applications.
 
 ---
@@ -14,31 +16,39 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 ## 🛠 Skills
 
 ### Frontend
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+<div align="left">
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white&animation=spin" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white&animation=spin" alt="CSS">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&animation=spin" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white&animation=spin" alt="Angular">
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white&animation=spin" alt="Bootstrap">
+</div>
 
 ### Backend
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
-![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-API-blue?style=flat)
-![SignalR](https://img.shields.io/badge/SignalR-6D2B9E?style=flat)
+<div align="left">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&animation=spin" alt="PHP">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white&animation=spin" alt="Laravel">
+  <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&animation=spin" alt="ASP.NET">
+  <img src="https://img.shields.io/badge/REST API-blue?style=for-the-badge&animation=spin" alt="REST API">
+  <img src="https://img.shields.io/badge/SignalR-6D2B9E?style=for-the-badge&animation=spin" alt="SignalR">
+</div>
 
 ### Database
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
+<div align="left">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&animation=spin" alt="MySQL">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white&animation=spin" alt="SQLite">
+  <img src="https://img.shields.io/badge/SQL Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white&animation=spin" alt="SQL Server">
+</div>
 
 ### Tools & Others
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+<div align="left">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&animation=spin" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&animation=spin" alt="GitHub">
+  <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&animation=spin" alt="VS Code">
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&animation=spin" alt="Postman">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&animation=spin" alt="Docker">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&animation=spin" alt="Linux">
+</div>
 
 ---
 
@@ -47,21 +57,30 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 ### [Booking System](https://github.com/MohamedTBadr/BookingSystem)
 **Description:** Web application for booking appointments, reservations, or events.  
 **Tech:** Laravel, MySQL, JavaScript  
-**Highlights:** Role-based access, real-time booking updates, notifications
+**Highlights:** Role-based access, real-time booking updates, notifications  
+![Booking Demo](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 
 ### [Food Delivery System](https://github.com/MohamedTBadr/Food-Delievery-APIs)
 **Description:** Complete food ordering and delivery platform with user-friendly interface.  
 **Tech:** ASP.NET Core, EF Core, SQL Server  
-**Highlights:** Online ordering, order tracking, admin dashboard
+**Highlights:** Online ordering, order tracking, admin dashboard  
+![Food Delivery Demo](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ### [Job Portal](https://github.com/MohamedTBadr/job-backOffice)
 **Description:** Platform connecting job seekers and employers with job management features.  
 **Tech:** Laravel, MySQL, JavaScript  
-**Highlights:** User authentication, job posting, search and filtering, resume upload
+**Highlights:** User authentication, job posting, search and filtering, resume upload  
+![Job Portal Demo](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 
 ---
 
+## 📈 GitHub Stats
 
+![Mohamed Badr's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohamedTBadr&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedTBadr&layout=compact&theme=radical&hide_border=true&cache_seconds=1800)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MohamedTBadr&theme=radical)
+
+---
 
 ## 📫 Contact Me
 - LinkedIn: [Mohamed Tarek](https://linkedin.com/in/mohamed-tarek-271153262/)  
