@@ -2,12 +2,12 @@ name: Update GitHub Streak Badge
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:      # Manual trigger
 
 jobs:
   streak-badge:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest  # Change to macos-latest or ubuntu-latest if you prefer
 
     steps:
       - name: Checkout repo
@@ -15,41 +15,68 @@ jobs:
 
       - name: Fetch contributions calendar
         id: contributions
+        shell: pwsh
         run: |
-          echo "Fetching contributions calendar including private contributions..."
-          CALENDAR=$(curl -s -H "Authorization: bearer ${{ secrets.GH_PAT }}" \
-            -X POST -d '{"query":"query { user(login: \"MohamedTBadr\") { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }"}' \
-            https://api.github.com/graphql)
-          echo "$CALENDAR" > contributions.json
-          echo "Calendar fetched"
+          Write-Host "Fetching contributions calendar including private contributions..."
+          $query = @"
+          query {
+            user(login: "MohamedTBadr") {
+              contributionsCollection {
+                contributionCalendar {
+                  weeks {
+                    contributionDays {
+                      date
+                      contributionCount
+                    }
+                  }
+                }
+              }
+            }
+          }
+"@
+          $response = Invoke-RestMethod -Uri "https://api.github.com/graphql" -Method POST -Headers @{ Authorization = "bearer $env:GH_PAT" } -Body (@{ query = $query } | ConvertTo-Json)
+          $response | ConvertTo-Json -Depth 10 | Out-File -FilePath contributions.json
+          Write-Host "Calendar fetched"
 
       - name: Calculate current streak
         id: streak
+        shell: pwsh
         run: |
-          streak=0
-          today=$(date +%Y-%m-%d)
-          jq -r '.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[] | "\(.date) \(.contributionCount)"' contributions.json | tac | while read date count; do
-            if [ "$count" -gt 0 ]; then
-              streak=$((streak+1))
-            else
-              # Stop counting streak if today or previous day was empty
-              if [ "$date" != "$today" ]; then
-                break
-              fi
-            fi
-          done
-          echo "streak=$streak" >> $GITHUB_OUTPUT
-          echo "Current streak: $streak"
+          $days = Get-Content contributions.json | ConvertFrom-Json | 
+                  Select-Object -ExpandProperty data |
+                  Select-Object -ExpandProperty user |
+                  Select-Object -ExpandProperty contributionsCollection |
+                  Select-Object -ExpandProperty contributionCalendar |
+                  Select-Object -ExpandProperty weeks |
+                  ForEach-Object { $_.contributionDays } |
+                  ForEach-Object { [PSCustomObject]@{ Date = $_.date; Count = $_.contributionCount } } |
+                  Sort-Object Date -Descending
+
+          $streak = 0
+          $today = Get-Date -Format yyyy-MM-dd
+          foreach ($day in $days) {
+            if ($day.Count -gt 0) {
+              $streak++
+            } else {
+              if ($day.Date -ne $today) { break }
+            }
+          }
+
+          Write-Output "streak=$streak" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          Write-Host "Current streak: $streak"
 
       - name: Update README badge
+        shell: pwsh
         run: |
-          echo "Updating README badge..."
-          sed -i "s|\[CURRENT_STREAK\]|${{ steps.streak.outputs.streak }}|g" README.md
+          $readme = Get-Content README.md
+          $readme = $readme -replace "\[CURRENT_STREAK\]", "${{ steps.streak.outputs.streak }}"
+          Set-Content README.md $readme
 
       - name: Commit and push changes
+        shell: pwsh
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update streak badge [skip ci]" || echo "No changes to commit"
+          git commit -m "Update streak badge [skip ci]" -ErrorAction SilentlyContinue
           git push
