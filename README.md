@@ -85,3 +85,5 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 >
 > ---
 
+📊 GitHub Stats
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Farah-Yasser&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF6B8B&icon_color=FF6B8B&text_color=ffffff" width="48%" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Farah-Yasser&theme=radical&hide_border=true&background=0d1117&ring=FF6B8B&fire=FF6B8B&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=FF6B8B&sideLabels=ffffff&dates=ffffff" width="48%" /> </div> <div align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Farah-Yasser&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF6B8B&text_color=ffffff" /> </div>
