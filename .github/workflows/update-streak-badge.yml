@@ -2,74 +2,31 @@ name: Update GitHub Streak Badge
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-  workflow_dispatch:      # Manual trigger
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:     # Allows manual trigger
 
 jobs:
   streak-badge:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch contributions calendar
-        id: contributions
-        run: |
-          echo "Fetching contributions calendar including private contributions..."
-          QUERY='query { user(login: "MohamedTBadr") { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }'
-          if [[ "$RUNNER_OS" == "Windows" ]]; then
-              powershell -Command "
-                \$response = Invoke-RestMethod -Uri 'https://api.github.com/graphql' -Method POST -Headers @{ Authorization = 'bearer $env:GH_PAT' } -Body (@{ query = '$QUERY' } | ConvertTo-Json)
-                \$response | ConvertTo-Json -Depth 10 | Out-File -FilePath contributions.json
-              "
-          else
-              curl -s -H "Authorization: bearer $GH_PAT" -X POST -d "{\"query\": \"$QUERY\"}" https://api.github.com/graphql > contributions.json
-          fi
-          echo "Calendar fetched"
-
-      - name: Calculate current streak
+      - name: Fetch streak count (including private contributions)
         id: streak
         run: |
-          if [[ "$RUNNER_OS" == "Windows" ]]; then
-              powershell -Command "
-                \$days = Get-Content contributions.json | ConvertFrom-Json | Select-Object -ExpandProperty data | Select-Object -ExpandProperty user | Select-Object -ExpandProperty contributionsCollection | Select-Object -ExpandProperty contributionCalendar | Select-Object -ExpandProperty weeks | ForEach-Object { \$_ .contributionDays } | ForEach-Object { [PSCustomObject]@{ Date = \$_ .date; Count = \$_ .contributionCount } } | Sort-Object Date -Descending
-                \$streak = 0
-                \$today = Get-Date -Format yyyy-MM-dd
-                foreach (\$day in \$days) {
-                  if (\$day.Count -gt 0) { \$streak++ } else { if (\$day.Date -ne \$today) { break } }
-                }
-                Write-Output \"streak=\$streak\" | Out-File -FilePath \$env:GITHUB_OUTPUT -Append
-              "
-          else
-              streak=0
-              today=$(date +%Y-%m-%d)
-              jq -r '.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[] | "\(.date) \(.contributionCount)"' contributions.json | tac | while read date count; do
-                if [ "$count" -gt 0 ]; then
-                  streak=$((streak+1))
-                else
-                  if [ "$date" != "$today" ]; then break; fi
-                fi
-              done
-              echo "streak=$streak" >> $GITHUB_OUTPUT
-          fi
-          echo "Current streak calculated"
+          echo "Fetching GitHub streak including private contributions..."
+          STREAK=$(curl -s -H "Authorization: bearer ${{ secrets.GH_PAT }}" \
+            -X POST -d '{"query":"query { user(login: \"MohamedTBadr\") { contributionsCollection { contributionCalendar { totalContributions } } } }"}' \
+            https://api.github.com/graphql | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+          echo "streak=$STREAK" >> $GITHUB_OUTPUT
+          echo "Streak count: $STREAK"
 
       - name: Update README badge
         run: |
-          if [[ "$RUNNER_OS" == "Windows" ]]; then
-              powershell -Command "
-                \$readme = Get-Content README.md
-                \$readme = \$readme -replace '\[CURRENT_STREAK\]', '${{ steps.streak.outputs.streak }}'
-                Set-Content README.md \$readme
-              "
-          else
-              sed -i "s|\[CURRENT_STREAK\]|${{ steps.streak.outputs.streak }}|g" README.md
-          fi
-          echo "README badge updated"
+          echo "Updating README badge..."
+          sed -i "s|\[CURRENT_STREAK\]|${{ steps.streak.outputs.streak }}|g" README.md
 
       - name: Commit and push changes
         run: |
