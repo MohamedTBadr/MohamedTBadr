@@ -86,7 +86,7 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=MohamedTBadr&theme=radical&hide_border=true&background=360036&ring=360036&fire=360036&currStreakNum=360036&sideNums=360036&currStreakLabel=360036&sideLabels=360036&dates=360036&cache_seconds=190" width="48%" />
+  <img src="https://streak-stats.demolab.com?user=MohamedTBadr&theme=radical&hide_border=true&background=#7F00FF&ring=#7F00FF&fire=#7F00FF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=#7F00FF&sideLabels=ffffff&dates=ffffff&cache_seconds=1800" width="48%" />
 </div>
 
 <!-- Activity Graph -->
