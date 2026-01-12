@@ -2,8 +2,8 @@ name: Update GitHub Streak Badge
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
-  workflow_dispatch:     # Allows manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   streak-badge:
@@ -13,15 +13,33 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch streak count (including private contributions)
+      - name: Fetch contributions calendar
+        id: contributions
+        run: |
+          echo "Fetching contributions calendar including private contributions..."
+          CALENDAR=$(curl -s -H "Authorization: bearer ${{ secrets.GH_PAT }}" \
+            -X POST -d '{"query":"query { user(login: \"MohamedTBadr\") { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }"}' \
+            https://api.github.com/graphql)
+          echo "$CALENDAR" > contributions.json
+          echo "Calendar fetched"
+
+      - name: Calculate current streak
         id: streak
         run: |
-          echo "Fetching GitHub streak including private contributions..."
-          STREAK=$(curl -s -H "Authorization: bearer ${{ secrets.GH_PAT }}" \
-            -X POST -d '{"query":"query { user(login: \"MohamedTBadr\") { contributionsCollection { contributionCalendar { totalContributions } } } }"}' \
-            https://api.github.com/graphql | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
-          echo "streak=$STREAK" >> $GITHUB_OUTPUT
-          echo "Streak count: $STREAK"
+          streak=0
+          today=$(date +%Y-%m-%d)
+          jq -r '.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[] | "\(.date) \(.contributionCount)"' contributions.json | tac | while read date count; do
+            if [ "$count" -gt 0 ]; then
+              streak=$((streak+1))
+            else
+              # Stop counting streak if today or previous day was empty
+              if [ "$date" != "$today" ]; then
+                break
+              fi
+            fi
+          done
+          echo "streak=$streak" >> $GITHUB_OUTPUT
+          echo "Current streak: $streak"
 
       - name: Update README badge
         run: |
