@@ -88,16 +88,17 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MohamedTBadr&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF6B8B&icon_color=FF6B8B&text_color=ffffff&cache_seconds=1800" width="48%" />
 
-  <img src="https://streak-stats.demolab.com?user=MohamedTBadr&theme=radical&hide_border=true&background=0d1117&ring=FF6B8B&fire=FF6B8B&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=FF6B8B&sideLabels=ffffff&dates=ffffff&cache_seconds=1800" width="48%" />
+  <img src="https://img.shields.io/badge/🔥_Current_Streak-[CURRENT_STREAK]-FF6B8B" width="48%" />
 </div>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedTBadr&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF6B8B&text_color=ffffff&cache_seconds=1800" />
 </div>
 
+---
+
 <!-- Activity Graph -->
 <div align="center" style="margin-top: 20px;">
-  
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -112,7 +113,4 @@ I enjoy automating workflows and creating practical solutions for real-world pro
       alt="GitHub Activity Graph"
     />
   </picture>
-
 </div>
-
-
