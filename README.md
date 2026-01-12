@@ -86,23 +86,13 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-  <!-- Option 1: GitHub Stats Card -->
-  <img src="https://github-readme-stats.vercel.app/api?username=MohamedTBadr&show_icons=true&count_private=true&hide_border=true&title_color=FF6B8B&icon_color=FF6B8B&text_color=ffffff&bg_color=0d1117" width="48%" alt="GitHub Stats" />
-  
-  <!-- Option 2: Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MohamedTBadr&hide_border=true&stroke=FF6B8B&ring=FF6B8B&fire=FF6B8B&currStreakLabel=FF6B8B&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&background=0d1117" width="48%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MohamedTBadr&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF6B8B&icon_color=FF6B8B&text_color=ffffff&cache_seconds=1800" width="48%" />
 
+  <img src="https://streak-stats.demolab.com?user=MohamedTBadr&theme=radical&hide_border=true&background=0d1117&ring=FF6B8B&fire=FF6B8B&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=FF6B8B&sideLabels=ffffff&dates=ffffff&cache_seconds=1800" width="48%" />
 </div>
 
-<div align="center" style="margin-top: 20px;">
-  
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedTBadr&layout=compact&hide_border=true&title_color=FF6B8B&text_color=ffffff&bg_color=0d1117&hide=html,css,scss" width="45%" alt="Top Languages" />
-  
-  <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=MohamedTBadr&margin-w=15&margin-h=15&no-bg=true&no-frame=true&title=Stars,Commit,Followers,Repo,PullRequest,Issues&row=2&column=3&theme=radical" width="45%" alt="GitHub Trophies" />
-
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedTBadr&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF6B8B&text_color=ffffff&cache_seconds=1800" />
 </div>
 
 <!-- Activity Graph -->
