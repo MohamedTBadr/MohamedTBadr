@@ -95,14 +95,14 @@ I enjoy automating workflows and creating practical solutions for real-world pro
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=MohamedTBadr&theme=react-dark&hide_border=true&area=true&area_color=FF6B8B&color=ffffff&line=FF6B8B&point=FF6B8B"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=MohamedTBadr&theme=react-dark&hide_border=true&area=true&area_color=#7F00FF&color=#7F00FF&line=#7F00FF&point=#7F00FF"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=MohamedTBadr&theme=github-light&hide_border=true&area=true&area_color=FF6B8B&color=000000&line=FF6B8B&point=FF6B8B"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=MohamedTBadr&theme=github-light&hide_border=true&area=true&area_color=#7F00FF&color=#7F00FF&line=#7F00FF&point=#7F00FF"
     />
     <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=MohamedTBadr&theme=react-dark&hide_border=true&area=true&area_color=FF6B8B&color=ffffff&line=FF6B8B&point=FF6B8B"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=MohamedTBadr&theme=react-dark&hide_border=true&area=true&area_color=#7F00FF&color=#7F00FF&line=#7F00FF&point=#7F00FF"
       alt="GitHub Activity Graph"
     />
   </picture>
