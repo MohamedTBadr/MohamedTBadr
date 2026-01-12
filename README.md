@@ -125,9 +125,4 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 
 </div>
 
-<!-- Profile View Counter -->
-<div align="center" style="margin-top: 20px;">
-  
-  <img src="https://komarev.com/ghpvc/?username=MohamedTBadr&color=FF6B8B&style=flat-square" alt="Profile views" />
-  
-</div>
+
