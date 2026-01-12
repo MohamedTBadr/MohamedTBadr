@@ -85,25 +85,3 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 >
 > ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="165"
-       src="https://github-readme-stats.vercel.app/api?username=MohamedTBadr&show_icons=true&theme=transparent&hide_border=true" />
-  <img height="165"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedTBadr&layout=compact&theme=transparent&hide_border=true" />
-</p>
-
----
-
-## 🐍 Contribution Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)"
-          srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Snake Animation"
-       src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
