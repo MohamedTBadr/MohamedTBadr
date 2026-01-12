@@ -2,7 +2,7 @@ name: Update GitHub Streak Badge
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
   workflow_dispatch:     # Allows manual trigger
 
 jobs:
@@ -13,14 +13,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch streak count
+      - name: Fetch streak count (including private contributions)
         id: streak
         run: |
           echo "Fetching GitHub streak including private contributions..."
-          STREAK=$(curl -H "Authorization: token ${{ secrets.GH_PAT }}" \
-          -s https://api.github.com/users/MohamedTBadr/events | \
-          jq '[.[] | select(.type=="PushEvent") | .created_at] | length')
+          STREAK=$(curl -s -H "Authorization: bearer ${{ secrets.GH_PAT }}" \
+            -X POST -d '{"query":"query { user(login: \"MohamedTBadr\") { contributionsCollection { contributionCalendar { totalContributions } } } }"}' \
+            https://api.github.com/graphql | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
           echo "streak=$STREAK" >> $GITHUB_OUTPUT
+          echo "Streak count: $STREAK"
 
       - name: Update README badge
         run: |
