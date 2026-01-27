@@ -106,6 +106,9 @@ I enjoy automating workflows and creating practical solutions for real-world pro
   </picture>
 
 </div>
+
+
+
 ---
 
 > "Strive for continuous improvement, not perfection."
