@@ -77,11 +77,7 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 - LinkedIn: [Mohamed Tarek](https://linkedin.com/in/mohamed-tarek-271153262/)  
 - Email: mohamedtarekbadr047@gmail.com
 
----
 
-> "Strive for continuous improvement, not perfection."
-
----
 
 ## 📊 GitHub Stats
 
@@ -110,5 +106,9 @@ I enjoy automating workflows and creating practical solutions for real-world pro
   </picture>
 
 </div>
+---
 
+> "Strive for continuous improvement, not perfection."
+
+---
 
