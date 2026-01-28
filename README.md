@@ -1,4 +1,4 @@
-# Hi there 👋, I'm Mohamed Badr
+# Hi there 👋, I'm Mohamed Tarek Badr
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,18&height=180&section=header&text=Backend%20Developer&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Backend Developer Banner" />
