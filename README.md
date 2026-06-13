@@ -11,7 +11,6 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 
 - 🌱 Currently learning: **Advanced Laravel, SignalR, WebSockets, ASP.NET Core**  
 - 💼 Open to opportunities in **Backend & Full-Stack Development**  
-- ⚡ Fun fact: I love turning ideas into real-world applications.
 
 ---
 
@@ -28,9 +27,9 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 
 ### Backend
 <div align="left">
+    <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
-  <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
   <img src="https://img.shields.io/badge/REST%20API-005571?style=for-the-badge">
   <img src="https://img.shields.io/badge/SignalR-6D2B9E?style=for-the-badge">
 </div>
@@ -55,6 +54,19 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 ---
 
 ## 📂 Featured Projects
+### <a href="https://epichubweb-g9h9a3a8bxafekdm.francecentral-01.azurewebsites.net/"> EpicHub – Event Management & Ticketing Platform</a>
+
+Production-ready event management platform built to support event creation, ticket booking, attendee management, sponsorships, and online payments.
+
+**Tech**: ASP.NET Core Web API, Angular, SQL Server, Azure, SignalR
+
+**Highlights**:
+Clean Architecture & scalable backend design
+Role-Based Access Control (RBAC)
+Secure payment integration
+Real-time notifications and updates
+Cloud deployment on Azure
+
 
 ### Booking System
 **Description:** Web application for booking appointments, reservations, or events.  
