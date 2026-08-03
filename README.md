@@ -1,8 +1,5 @@
-# Hi there 👋, I'm Mohamed Tarek Badr
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,18&height=200&section=header&text=Mohamed%20Tarek%20Badr&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20%7C%20Full-Stack%20Developer&descAlignY=55&descSize=18" alt="header banner" />
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,18&height=180&section=header&text=Backend%20Developer&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Backend Developer Banner" />
-</p>
 
 ## 🚀 About Me
 Full-Stack Developer building modern web applications with **Laravel, Angular, and ASP.NET Core**.  
@@ -13,76 +10,167 @@ I enjoy automating workflows and creating practical solutions for real-world pro
 - 💼 Open to opportunities in **Backend & Full-Stack Development**  
 
 ---
-
-## 🛠 Skills
-
-### Frontend
-<div align="left">
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-</div>
-
-### Backend
-<div align="left">
-    <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
-  <img src="https://img.shields.io/badge/REST%20API-005571?style=for-the-badge">
-  <img src="https://img.shields.io/badge/SignalR-6D2B9E?style=for-the-badge">
-</div>
-
-### Database
-<div align="left">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white">
-</div>
-
-### Tools & Others
-<div align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-</div>
+Here's a more sophisticated categorization with professional grouping and visual hierarchy:
 
 ---
 
+## 💻 Technical Expertise
+
+### 🎨 Frontend Engineering
+<table>
+  <tr>
+    <td><strong>Core Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
+      <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E">
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Frameworks & Libraries</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white">
+      <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white">
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white">
+    </td>
+  </tr>
+  
+</table>
+
+### ⚙️ Backend Architecture
+<table>
+  <tr>
+    <td><strong>Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white">
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Frameworks</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white">
+      <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white">
+      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>API & Communication</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/RESTful_API-005571?style=flat-square&logo=swagger&logoColor=white">
+      <img src="https://img.shields.io/badge/WebSocket-SignalR-6D2B9E?style=flat-square&logo=socket.io&logoColor=white">
+    </td>
+  </tr>
+</table>
+
+### 🗄️ Data Management
+<table>
+  <tr>
+    <td><strong>Relational Databases</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+      <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white">
+      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>NoSQL Databases</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>ORM & Tools</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white">
+      <img src="https://img.shields.io/badge/Dapper-512BD4?style=flat-square&logo=dapper&logoColor=white">
+    </td>
+  </tr>
+</table>
+
+### ☁️ Cloud & DevOps
+<table>
+  <tr>
+    <td><strong>Cloud Platforms</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Containerization</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+    </td>
+  </tr>
+  
+</table>
+
+### 🛠️ Development Ecosystem
+<table>
+  <tr>
+    <td><strong>Version Control</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
+      <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white">
+      <img src="https://img.shields.io/badge/Bitbucket-0052CC?style=flat-square&logo=bitbucket&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td><strong>IDEs & Tools</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat-square&logo=visual-studio&logoColor=white">
+      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white">
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white">
+      <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black">
+    </td>
+  </tr>
+  
+</table>
+
+
+---
 ## 📂 Featured Projects
-### <a href="https://epichubweb-g9h9a3a8bxafekdm.francecentral-01.azurewebsites.net/"> EpicHub – Event Management & Ticketing Platform</a>
 
-Production-ready event management platform built to support event creation, ticket booking, attendee management, sponsorships, and online payments.
-
-**Tech**: ASP.NET Core Web API, Angular, SQL Server, Azure, SignalR
-
-**Highlights**:
-Clean Architecture & scalable backend design
-Role-Based Access Control (RBAC)
-Secure payment integration
-Real-time notifications and updates
-Cloud deployment on Azure
-
-
-### Booking System
-**Description:** Web application for booking appointments, reservations, or events.  
-**Tech:** Laravel, MySQL, JavaScript  
-**Highlights:** Role-based access, real-time booking updates, notifications
-
-### [Food Delivery System](https://github.com/MohamedTBadr/Food-Delievery-APIs)
-**Description:** Complete food ordering and delivery platform.  
-**Tech:** ASP.NET Core, EF Core, SQL Server  
-**Highlights:** Online ordering, order tracking, admin dashboard
-
-### [Job Portal](https://github.com/MohamedTBadr/job-backOffice)
-**Description:** Platform connecting job seekers and employers.  
-**Tech:** Laravel, MySQL, JavaScript  
-**Highlights:** Authentication, job posting, search & filtering, resume upload
-
+### 🎟️ [EpicHub — Event Management & Ticketing Platform](https://epichubweb-g9h9a3a8bxafekdm.francecentral-01.azurewebsites.net/)
+Production-ready platform for event creation, ticket booking, attendee management, sponsorships, and online payments.
+ 
+`ASP.NET Core Web API` · `Angular` · `SQL Server` · `Azure` · `SignalR`
+ 
+- Clean Architecture with a scalable backend design
+- Role-Based Access Control (RBAC)
+- Secure payment integration
+- Real-time notifications via SignalR
+- Deployed to Azure
+---
+ 
+### 📅 Booking System
+Web application for booking appointments, reservations, and events.
+ 
+`Laravel` · `MySQL` · `JavaScript`
+ 
+- Role-based access control
+- Real-time booking updates and notifications
+---
+ 
+### 🍔 [Food Delivery System](https://github.com/MohamedTBadr/Food-Delievery-APIs)
+Complete food ordering and delivery platform.
+ 
+`ASP.NET Core` · `EF Core` · `SQL Server`
+ 
+- Online ordering with live order tracking
+- Admin dashboard for order management
+---
+ 
+### 💼 [Job Portal](https://github.com/MohamedTBadr/job-backOffice)
+Platform connecting job seekers and employers.
+ 
+`Laravel` · `MySQL` · `JavaScript`
+ 
+- Authentication and role management
+- Job posting with search & filtering
+- Resume upload support
 ---
 
 ## 📫 Contact Me
