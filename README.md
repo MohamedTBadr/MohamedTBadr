@@ -144,7 +144,25 @@ Production-ready platform for event creation, ticket booking, attendee managemen
 - Real-time notifications via SignalR
 - Deployed to Azure
 ---
- 
+ ### 🏛️ ThreeDOS APIs — Council Management System
+
+Backend-only, API-first management system built for **student councils and training organizations**. ThreeDOS centralizes council operations including authentication, tasks, submissions, teams, attendance, user management, caching, notifications, and an AI-powered mentor.
+
+`Laravel 12` · `PHP 8.4` · `MySQL` · `Redis` · `JWT` · `Gemini AI` · `Railway`
+
+* Role-Based Access Control with council-scoped data isolation
+* Task assignment, submission tracking, and attendance management
+* Team and team-member management with bulk import capabilities
+* Redis-backed caching and cache administration
+* JWT-based API authentication and authorization policies
+* Gemini-powered AI mentor designed for guidance rather than task completion
+* Structured backend architecture using Controllers, Requests, Services, Repositories, Policies, and API Resources
+* Production API deployed on Railway
+
+[API Repository](https://github.com/MohamedTBadr/ThreeDOS-APIs) · [Production API](https://threedos-apis-production.up.railway.app/api)
+
+---
+
 ### 📅 Booking System
 Web application for booking appointments, reservations, and events.
  
