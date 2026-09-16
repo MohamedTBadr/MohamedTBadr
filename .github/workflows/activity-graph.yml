@@ -13,22 +13,48 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate activity graph
-        uses: maurodesouza/github-readme-activity-graph-action@v1
-        with:
-          username: MohamedTBadr
-          options: theme=react-dark&hide_border=true&area=true&area_color=512BD4&color=512BD4&line=512BD4&point=512BD4
-          output_path: dist/activity-graph.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish SVG
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Generate 365-day activity graph
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: MohamedTBadr
+        run: |
+          python scripts/activity_graph.py
 
+      - name: Publish graph to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Save generated graph outside the current branch
+          mkdir -p /tmp/activity-graph
+          cp dist/activity-graph.svg /tmp/activity-graph/activity-graph.svg
+
+          # Fetch output branch if it exists
+          git fetch origin output:output || true
+
+          if git show-ref --verify --quiet refs/heads/output; then
+            git checkout output
+          else
+            git checkout --orphan output
+            git rm -rf . || true
+          fi
+
+          # Keep output branch clean
+          find . -mindepth 1 -maxdepth 1 \
+            ! -name ".git" \
+            -exec rm -rf {} +
+
+          mkdir -p dist
+          cp /tmp/activity-graph/activity-graph.svg dist/activity-graph.svg
+
+          git add dist/activity-graph.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "Update activity graph"
+            git push origin output
+          fi
