@@ -246,13 +246,11 @@ I'm currently focused on progressing from backend development toward **advanced 
 
 ## 📈 Activity & Stats
 
-<div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MohamedTBadr&theme=react-dark&hide_border=true&area=true&area_color=512BD4&color=512BD4&line=512BD4&point=512BD4" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MohamedTBadr&theme=github-light&hide_border=true&area=true&area_color=512BD4&color=512BD4&line=512BD4&point=512BD4" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MohamedTBadr&theme=react-dark&hide_border=true&area=true&area_color=512BD4&color=512BD4&line=512BD4&point=512BD4" alt="GitHub Activity Graph" width="100%" />
-</picture>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/MohamedTBadr/MohamedTBadr/output/activity-graph.svg" alt="GitHub Activity Graph" width="100%" />
+
 
 <br/>
 
