@@ -35,6 +35,9 @@ jobs:
           # Fetch output branch if it exists
           git fetch origin output:output || true
 
+          # Remove generated files from current branch before switching
+          rm -rf dist
+
           if git show-ref --verify --quiet refs/heads/output; then
             git checkout output
           else
