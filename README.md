@@ -47,9 +47,9 @@ Currently deepening my knowledge in **backend architecture, distributed systems,
 ### Backend Engineering
 <div align="center">
 
-[![Backend](https://skillicons.dev/icons?i=cs,dotnet,php,laravel,go&theme=dark&perline=5)](https://skillicons.dev)
+[![Backend](https://skillicons.dev/icons?i=cs,dotnet,php,laravel,go,fastapi&theme=dark&perline=6)](https://skillicons.dev)
 
-`C# · ASP.NET Core · PHP · Laravel · Go`
+`C# · ASP.NET Core · PHP · Laravel · Go · FastAPI`
 
 </div>
 
@@ -65,14 +65,7 @@ Currently deepening my knowledge in **backend architecture, distributed systems,
 ### Data & Real-Time
 <div align="center">
 
-<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-<img src="https://img.shields.io/badge/Dapper-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-<img src="https://img.shields.io/badge/SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-
+<img src="Databases.png" width="50%" />
 </div>
 
 ### Cloud & Tooling
