@@ -2,7 +2,7 @@ name: Update Activity Graph
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "17 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -20,22 +20,18 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: MohamedTBadr
-        run: |
-          python scripts/activity_graph.py
+        run: python scripts/activity_graph.py
 
       - name: Publish graph to output branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Save generated graph outside the current branch
           mkdir -p /tmp/activity-graph
           cp dist/activity-graph.svg /tmp/activity-graph/activity-graph.svg
 
-          # Fetch output branch if it exists
           git fetch origin output:output || true
 
-          # Remove generated files from current branch before switching
           rm -rf dist
 
           if git show-ref --verify --quiet refs/heads/output; then
@@ -45,7 +41,6 @@ jobs:
             git rm -rf . || true
           fi
 
-          # Keep output branch clean
           find . -mindepth 1 -maxdepth 1 \
             ! -name ".git" \
             -exec rm -rf {} +
