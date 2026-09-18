@@ -2,7 +2,7 @@ import json
 import os
 import urllib.request
 import urllib.error
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from html import escape
 
 
@@ -168,7 +168,7 @@ def month_labels(days, start_x, cell_width):
     return labels
 
 
-def build_svg(days, total_contributions):
+def build_svg(days, total_contributions, generated_at):
     if not days:
         raise RuntimeError("No contribution data was returned by GitHub.")
 
@@ -340,6 +340,17 @@ def build_svg(days, total_contributions):
     )
 
     # Footer / range
+    generated_label = generated_at.strftime("%Y-%m-%d %H:%M UTC")
+
+    svg.append(
+        f'<text x="{left_margin}" y="{svg_height - 10}" '
+        f'fill="{TEXT_COLOR}" '
+        f'font-family="Arial, Helvetica, sans-serif" '
+        f'font-size="9">'
+        f"Updated: {generated_label}"
+        f"</text>"
+    )
+
     svg.append(
         f'<text x="{svg_width - 20}" y="{svg_height - 10}" '
         f'fill="{TEXT_COLOR}" '
@@ -369,7 +380,9 @@ def main():
             f"but received {len(days)} days."
         )
 
-    svg = build_svg(days, total_contributions)
+    generated_at = datetime.now(timezone.utc)
+
+    svg = build_svg(days, total_contributions, generated_at)
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
@@ -381,4 +394,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
