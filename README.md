@@ -158,13 +158,13 @@ Backend-only, API-first management system built for student councils and trainin
 
 <td width="33%" valign="top">
 
-#### 📅 Booking System
+#### 📅 ThreeDOS Ushering System
 
 `Laravel` · `MySQL` · `JavaScript`
 
-Role-based access control with real-time booking updates and notifications.
+The ThreeDOS Ushering & Candidate Management System is a robust, platform engineered to streamline member recruitment, event ushering attribution, interview evaluations, candidate decision pipelines, and executive performance analytics across all ThreeDOS.
 
-<a href="https://github.com/MohamedTBadr">
+<a href="https://github.com/MohamedTBadr/ThreeDOS-Ushering-System">
   <img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white" />
 </a>
 
