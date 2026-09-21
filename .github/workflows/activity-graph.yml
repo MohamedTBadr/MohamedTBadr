@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 */12 * * *"
+    - cron: "17 2 * * *"   # daily 02:17 UTC - beautiful graph every day
   workflow_dispatch:
 
 jobs:

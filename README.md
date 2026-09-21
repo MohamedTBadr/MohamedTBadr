@@ -239,11 +239,10 @@ I'm currently focused on progressing from backend development toward **advanced 
 
 ## 📈 Activity & Stats
 
-
-
 <div align="center">
-<img src="https://raw.githubusercontent.com/MohamedTBadr/MohamedTBadr/output/dist/activity-graph.svg" alt="GitHub Activity Graph" width="100%" />
 
+<!-- Beautiful Contribution Line Graph - updates every day at 02:17 UTC + on every push to main -->
+<img src="https://raw.githubusercontent.com/MohamedTBadr/MohamedTBadr/output/dist/activity-graph.svg" alt="Mohamed Tarek's Contribution Graph" width="100%" />
 
 <br/>
 
