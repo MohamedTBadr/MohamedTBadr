@@ -242,7 +242,7 @@ I'm currently focused on progressing from backend development toward **advanced 
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/MohamedTBadr/MohamedTBadr/output/activity-graph.svg" alt="GitHub Activity Graph" width="100%" />
+<img src="https://raw.githubusercontent.com/MohamedTBadr/MohamedTBadr/output/dist/activity-graph.svg" alt="GitHub Activity Graph" width="100%" />
 
 
 <br/>
